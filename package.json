@@ -1,0 +1,14 @@
+{
+  "name": "hivetalk-obs-bridge",
+  "version": "0.14.1",
+  "private": true,
+  "description": "Alpha local four-slot HiveTalk to OBS bridge",
+  "scripts": {
+    "start": "node server/server.js",
+    "test": "node --test",
+    "build": "bash scripts/build-release.sh"
+  },
+  "dependencies": {
+    "ws": "^8.18.3"
+  }
+}
